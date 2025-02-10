@@ -17,7 +17,9 @@ print(2,"sub")
 print(3,"mul")
 print(4,"div")
 while True:
-    choice = int(input("enter your choice: "))
+
+
+    choice = input("Enter choice(1/2/3/4): ")
     if choice in ('1', '2', '3', '4'):
         try:
             num1 = float(input("Enter first number: "))
